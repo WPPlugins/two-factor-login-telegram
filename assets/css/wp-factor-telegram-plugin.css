@@ -1,0 +1,91 @@
+/**
+ * WP Factor Telegram Plugin
+ */
+
+#factor-chat-confirm {
+    display: none;
+}
+
+#factor-chat-response {
+    display:none;
+}
+
+.load-spinner {
+    float:left;
+}
+
+.wpft-container {
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 30px;
+}
+
+.wpft-notice {
+    background: #fff;
+    border-left: 4px solid #fff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    margin: 5px 15px 2px;
+    padding: 1px 12px
+}
+
+.wpft-notice {
+    background: #fff;
+    border-left: 4px solid #fff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    margin: 5px 15px 2px;
+    padding: 12px 12px
+}
+
+.wpft-notice-warning {
+    border-left-color: #ffb900;
+}
+
+.wpft-notice-success {
+    border-left-color: #46b450;
+}
+
+.wpft-notice-error {
+    border-left-color: #ed0d00;
+}
+
+.wpft-notice p {
+    margin: .5em 0;
+    padding: 2px;
+    font-size: 13px;
+}
+
+.wpft-notice p:before {
+    margin-right: 6px;
+    vertical-align: bottom;
+}
+
+.wft-settings-description span.success {
+    color: #6495ED;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.wft-settings-description span.error {
+    color: #ed0d00;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.input-valid {
+    border: 1px solid green !important;
+}
+
+.social-foot {
+    border:0;
+    text-decoration:none;
+}
+
+.response-email-error, .response-email-success {
+    display:none;
+}
